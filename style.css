@@ -1,0 +1,55 @@
+body {
+ background-color: rgba(0, 0, 0, 0.796);
+}
+
+.box { 
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-head {
+    margin-left: 55px;
+
+}
+
+#random {
+    width: 247px;
+    height: 307px;
+}
+    
+.titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: bold ;
+    color: #721414;
+
+
+}
+
+button {
+    margin-top: 40px;
+    background: #721414 ;
+    color: black;
+    font-family:'Oswald', sans-serif ;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 15px 50px;
+    transition: 1s;
+    border-radius: 30px;
+    border-color: black;
+
+}
+
+button:hover {
+    background:black ;
+    color: #721414;
+    letter-spacing: 4px;
+}
+
